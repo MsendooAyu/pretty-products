@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 1.5rem;
+  padding: 1rem;
 }
 
 h1 {
@@ -19,6 +20,10 @@ h1 {
   color: #6f00e7;
   align-items: center;
   justify-content: center;
+  margin: 1.5rem;
+  padding: .5em 1.5em .7em;
+  font-size: 2rem;
+  text-align: center;
 }
 
 img .image {
@@ -36,7 +41,7 @@ ol {
 
 ol li {
   background-color: #fff;
-  border: 2px solid #6f00e7;
+  border: 3px solid #987ffa;
   display: block;
   flex-direction: column;
   border-radius: 6px;
@@ -47,19 +52,32 @@ ol li {
 
 ul li {
   border: 0;
+  padding: 1rem;
 }
 
 a:first-child {
   border-radius: 3em;
   background-color: #6f00e7;
-
+  padding: .5em 1.5em .7em;
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
 }
 
-p{
-  margin: 1rem;
+p {
+  margin: 1.5rem;
   justify-content: center;
   align-items: center;
-  padding: .5em 1.5em .7em
+  padding: .5em 1.5em .7em;
   color: #000;
   font-family: "Karma";
-  font-size: 2rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+nav img {
+  padding: 0;
+  order: 0 -1 1;
+  margin: 0;
+  grid-gap: 1rem;
+}
